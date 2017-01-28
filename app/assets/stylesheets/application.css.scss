@@ -54,3 +54,17 @@ h1, h2, h3 {
      font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #734b6d;
+    }
+}
+
+
+
+
