@@ -33,7 +33,14 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-    
+    <div class="container">
+      <% flash.each do |key, value| %>
+        <%= content_tag :div, class: "alert alert-#{key} alert-dismissable" do %>
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+          <%= value %>
+        <% end %>
+      <% end %>
+    </div>
       <%= yield %>
   
   </body>
