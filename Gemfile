@@ -32,8 +32,10 @@ gem 'jbuilder', '2.5.0'
 gem 'bootstrap-sass', '3.3.7'
 
 #Font Awesome
-
 gem 'font-awesome-sass', '4.6.2'
+
+#Hirb Gem
+gem 'hirb', '0.7.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
